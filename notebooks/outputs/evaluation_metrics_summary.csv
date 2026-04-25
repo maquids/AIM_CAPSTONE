@@ -1,0 +1,6 @@
+Metric,Value
+Isolation Forest anomaly rate,5.0%
+K-Means anomaly rate,5.0%
+DBSCAN anomaly rate,12.39%
+K-Means silhouette score,0.3769
+K-Means distance threshold,6.4263

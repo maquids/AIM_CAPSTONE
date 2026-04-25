@@ -1,0 +1,83 @@
+{
+  "project": "Cybersecurity Anomaly Detection Capstone",
+  "author": "Ryan Dale Maquidato",
+  "original_dataset_shape": [
+    25192,
+    42
+  ],
+  "final_dataset_shape_after_cleaning": [
+    25192,
+    53
+  ],
+  "duplicates_removed": 0,
+  "selected_feature_count": 24,
+  "selected_features": [
+    "protocol_type",
+    "service",
+    "flag",
+    "src_bytes",
+    "dst_bytes",
+    "logged_in",
+    "count",
+    "srv_count",
+    "serror_rate",
+    "srv_serror_rate",
+    "same_srv_rate",
+    "diff_srv_rate",
+    "dst_host_count",
+    "dst_host_srv_count",
+    "dst_host_same_srv_rate",
+    "dst_host_diff_srv_rate",
+    "dst_host_same_src_port_rate",
+    "dst_host_srv_diff_host_rate",
+    "dst_host_serror_rate",
+    "dst_host_srv_serror_rate",
+    "class",
+    "byte_ratio",
+    "service_to_host_ratio",
+    "dst_host_service_ratio"
+  ],
+  "removed_low_variance_features": [
+    "duration",
+    "land",
+    "wrong_fragment",
+    "urgent",
+    "hot",
+    "num_failed_logins",
+    "num_compromised",
+    "root_shell",
+    "su_attempted",
+    "num_root",
+    "num_file_creations",
+    "num_shells",
+    "num_access_files",
+    "num_outbound_cmds",
+    "is_host_login",
+    "is_guest_login",
+    "rerror_rate",
+    "srv_rerror_rate",
+    "srv_diff_host_rate",
+    "dst_host_rerror_rate",
+    "dst_host_srv_rerror_rate",
+    "login_failure_ratio"
+  ],
+  "models_saved": [
+    "isolation_forest_intrusion.pkl",
+    "kmeans_model.pkl",
+    "dbscan_model.pkl",
+    "scaler.pkl",
+    "variance_selector.pkl",
+    "pca.pkl",
+    "label_encoders.pkl"
+  ],
+  "isolation_forest_anomalies": 1260,
+  "kmeans_anomalies": 1260,
+  "dbscan_anomalies": 3122,
+  "kmeans_silhouette_score": 0.3768663719732955,
+  "kmeans_distance_threshold": 6.426341928081655,
+  "training_time_seconds": 80.32,
+  "pca_explained_variance_ratio": [
+    0.4202777088825889,
+    0.10498946891723317
+  ]
+}
