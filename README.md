@@ -154,8 +154,7 @@ This model is intended as a **decision-support tool**, not a fully automated dec
 ## 👤 Author
 
 **Ryan Dale Maquidato**
-System Developer (Insurance Industry)
-Machine Learning Capstone Project
+April 2026
 
 ---
 
