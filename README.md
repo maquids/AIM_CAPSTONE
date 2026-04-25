@@ -1,4 +1,4 @@
-# 🚨 Cybersecurity Anomaly Detection using Machine Learning
+# 🚨 AI-Powered Anomaly Detection for Fraudulent System Activities
 
 ## 📌 Project Overview
 
